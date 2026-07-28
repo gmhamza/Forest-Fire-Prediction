@@ -4,7 +4,7 @@ A Machine Learning based system that predicts the risk of a forest fire from
 daily weather and Fire Weather Index (FWI) readings, and issues an early
 warning through an interactive Streamlit web app.
 
-Built as part of a **Data Science Internship mini project** (B.E. 3rd Semester).
+Built as part of a **Data Science Internship mini project** (B.E. 5th Semester).
 
 ---
 
@@ -46,12 +46,11 @@ ForestFirePrediction/
 │
 ├── app.py                     # Streamlit web application
 ├── train_model.py             # Data preprocessing + model training script
-├── generate_dataset.py        # Script used to build the dataset
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # This file
 │
 ├── data/
-│   └── forest_fire.csv        # Dataset used for training
+│   └── Algerian_forest_fires_dataset.csv        # Dataset used for training
 │
 ├── models/
 │   ├── forest_fire_model.pkl      # Best trained model (Logistic Regression)
@@ -63,11 +62,8 @@ ForestFirePrediction/
 │
 ├── notebooks/
 │   ├── EDA_Forest_Fire.ipynb  # Full EDA notebook (Colab / Jupyter ready)
-│   └── forest_fire.csv
+│   └── Algerian_forest_fires_dataset.csv
 │
-├── docs/                      # Report, PPT, viva questions, etc.
-├── screenshots/                # Screenshots for report
-└── images/
 ```
 
 ## ⚙️ Installation
@@ -106,7 +102,7 @@ This opens the app in your browser at `http://localhost:8501`.
 
 **To run the EDA notebook:** open `notebooks/EDA_Forest_Fire.ipynb` in
 Jupyter Notebook, JupyterLab, or upload it to Google Colab (along with
-`forest_fire.csv` from the same folder).
+`Algerian_forest_fires_dataset.csv` from the same folder).
 
 ## 📊 Output
 
@@ -124,6 +120,6 @@ Jupyter Notebook, JupyterLab, or upload it to Google Colab (along with
 - Add a live map showing fire-risk zones
 - Deploy the app on the cloud (Streamlit Community Cloud / Render / Heroku)
 
-## 👤 Author
+## 👤 Gulam Mahmood Hamza
 
-Data Science Internship Project — B.E. 3rd Semester
+Data Science Internship Project — B.E. 5th Semester
