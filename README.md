@@ -82,19 +82,14 @@ ForestFirePrediction/
 
 ## ▶️ How to Run
 
-**Step 1 — (Optional) Regenerate the dataset**
-```bash
-python generate_dataset.py
-```
-
-**Step 2 — Train the models**
+**Step 1 — Train the models**
 ```bash
 python train_model.py
 ```
 This prints accuracy/precision/recall/F1 for all 6 models and saves the
 best one to the `models/` folder.
 
-**Step 3 — Run the Streamlit app**
+**Step 2 — Run the Streamlit app**
 ```bash
 streamlit run app.py
 ```
